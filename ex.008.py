@@ -7,9 +7,9 @@ dam = m / 10
 dm = m * 10
 cm = m * 100
 mm = m * 1000
-print('{} em metros equivale a {} quilometros;'.format(m, km))
-print('{} em metros equivale a {} hectômetros;'.format(m, hm))
-print('{} em metros equivale a {} decâmetros;'.format(m, dam))
-print('{} em metros equivale a {} decímetros;'.format(m, dm))
-print('{} em metros equivale a {} centímetros;'.format(m, cm))
-print('{} em metros equivale a {} milímetros.'.format(m, mm))
+print('{}{}{}, em metros, equivale a {}{}{} Km;'.format('\033[33m', m, '\033[m', '\033[35m', km, '\033[m'))
+print('{}{}{}, em metros, equivale a {}{}{} Hm;'.format('\033[33m', m, '\033[m', '\033[35m', hm, '\033[m'))
+print('{}{}{}, em metros, equivale a {}{}{} Dam;'.format('\033[33m', m, '\033[m', '\033[35m', dam, '\033[m'))
+print('{}{}{}, em metros, equivale a {}{}{} Dm;'.format('\033[33m', m, '\033[m', '\033[35m', dm, '\033[m'))
+print('{}{}{}, em metros, equivale a {}{}{} Cm;'.format('\033[33m', m, '\033[m', '\033[35m', cm, '\033[m'))
+print('{}{}{}, em metros, equivale a {}{}{} Mm.'.format('\033[33m', m, '\033[m', '\033[35m', mm, '\033[m'))
