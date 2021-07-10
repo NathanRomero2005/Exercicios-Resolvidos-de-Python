@@ -4,4 +4,4 @@
 from math import hypot
 co = float(input('Digite o valor do cateto oposto: '))
 ca = float(input('Digite o valor do cateto adjacente: '))
-print('Considerando os valores dos catetos, a hipotenusa é {:.2f}.'.format(hypot(co, ca)))
+print('Considerando os valores dos catetos, a hipotenusa é \033[37m{:.2f}\033[m.'.format(hypot(co, ca)))

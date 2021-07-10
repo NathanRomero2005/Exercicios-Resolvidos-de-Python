@@ -7,4 +7,4 @@ n2 = input('Digite o nome do(a) 2º aluno(a): ')
 n3 = input('Digite o nome do(a) 3º aluno(a): ')
 n4 = input('Digite o nome do(a) 4º aluno(a): ')
 l = [n1, n2, n3, n4]
-print('O aluno(a) escolhido(a) é {}.'.format(choice(l)))
+print('O aluno(a) escolhido(a) é \033[95m{}\033[m.'.format(choice(l)))

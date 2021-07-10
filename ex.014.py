@@ -2,4 +2,4 @@
 
 c = float(input('Digite a temperatura em ºC: '))
 f = ((9 * c) / 5) + 32
-print('{}ºC equivale a {}ºF.'.format(c, f))
+print('\033[36m{}ºC\033[m equivale a \033[32m{}ºF\033[m.'.format(c, f))

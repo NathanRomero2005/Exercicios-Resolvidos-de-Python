@@ -5,4 +5,4 @@ l = float(input('Qual a largura da parede, em metros? '))
 h = float(input('Qual a altura da parede, em metros? '))
 a = l * h
 t = a / 2
-print('A área da parede é {:.2f}m². A quantidade de tinta necessária é {:.2f}l.'.format(a, t))
+print('A área da parede é \033[31m{:.2f}m²\033[m. A quantidade de tinta necessária é \033[34m{:.2f}l\033[m.'.format(a, t))

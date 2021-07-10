@@ -2,4 +2,4 @@
 
 from math import trunc
 num = float(input('Digite um número Real qualquer: '))
-print('A parte inteira de {} é {}.'.format(num, trunc(num)))
+print('A parte inteira de \033[33m{}\033[m é \033[33m{}\033[m.'.format(num, trunc(num)))
