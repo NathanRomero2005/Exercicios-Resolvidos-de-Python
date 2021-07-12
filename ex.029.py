@@ -4,7 +4,7 @@
 v = float(input('Qual a velocidade do carro (Km/h)? '))
 m = (v - 80) * 7
 if v > 80:
-    print('Você foi multado!')
-    print('O valor total a ser pago é R${:.2f}.'.format(m))
+    print('\033[31mVocê foi multado!\033[m')
+    print('O valor total a ser pago é \033[92mR${:.2f}\033[m.'.format(m))
 else:
-    print('Você está dentro do limite permitido, continue assim!')
+    print('\033[92mVocê está dentro do limite permitido, continue assim!\033[m')

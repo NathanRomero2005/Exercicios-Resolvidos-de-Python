@@ -5,11 +5,11 @@
 from random import randint
 from time import sleep
 r = randint(0, 5)
-print('Pensando em um número de 0 a 5. Tente adivinhar...')
+print('\033[93mPensando em um número de 0 a 5. Tente adivinhar...\033[m')
 sleep(2)
 j = int(input('Em que número pensei? '))
 sleep(2)
 if j == r:
-    print('Parabéns! Você conseguiu me vencer!')
+    print('\033[92mParabéns!\033[m Você conseguiu me vencer!')
 else:
-    print('Você perdeu! Na verdade, pensei no número {}.'.format(r))
+    print('\033[91mVocê perdeu!\033[m Na verdade, pensei no número \033[91m{}\033[m.'.format(r))

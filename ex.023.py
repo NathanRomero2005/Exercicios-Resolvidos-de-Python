@@ -5,7 +5,7 @@ u = num // 1 % 10
 d = num // 10 % 10
 c = num // 100 % 10
 m = num // 1000 % 10
-print('A unidade: {}.'.format(u))
-print('A dezena: {}.'.format(d))
-print('A centena: {}.'.format(c))
-print('O milhar: {}.'.format(m))
+print('Unidade: \033[96m{}\033[m.'.format(u))
+print('Dezena: \033[93m{}\033[m.'.format(d))
+print('Centena: \033[92m{}\033[m.'.format(c))
+print('Milhar: \033[94m{}\033[m.'.format(m))
