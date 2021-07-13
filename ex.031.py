@@ -3,6 +3,6 @@
 
 d = int(input('Qual a distância da viagem (Km)? '))
 if d <= 200:
-    print('O valor total a ser cobrado é R${:.2f}.'.format(d * 0.50))
+    print('O valor total a ser cobrado é \033[92mR${:.2f}\033[m.'.format(d * 0.50))
 else:
-    print('O valor total a ser cobrado é R${:.2f}.'.format(d * 0.45))
+    print('O valor total a ser cobrado é \033[92mR${:.2f}\033[m.'.format(d * 0.45))

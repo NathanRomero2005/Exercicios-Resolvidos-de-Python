@@ -3,6 +3,8 @@
 
 s = float(input('Digite o salário: R$'))
 if s > 1250.00:
-    print('O salário de R${:.2f} com reajuste de 10%, agora é R${:.2f}.'.format(s, s + (s * 10 / 100)))
+    print('O salário de \033[92mR${:.2f}\033[m com reajuste de \033[93m10%\033[m, agora é \033[92mR${:.2f}\033[m.'
+          .format(s, s + (s * 10 / 100)))
 else:
-    print('O salário de R${:.2f} com reajuste de 15%, agora é R${:.2f}.'.format(s, s + (s * 15 / 100)))
+    print('O salário de \033[92mR${:.2f}\033[m com reajuste de \033[93m15%\033[m, agora é \033[92mR${:.2f}\033[m.'
+          .format(s, s + (s * 15 / 100)))
